@@ -1,0 +1,25 @@
+{
+    "name": "swisu",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "tauri": "tauri"
+    },
+    "dependencies": {
+        "@tauri-apps/api": "^1.5.2"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.5.8",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.33",
+        "prettier": "^3.2.2",
+        "prettier-plugin-tailwindcss": "^0.5.11",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5.0.2",
+        "vite": "^5.0.0"
+    }
+}

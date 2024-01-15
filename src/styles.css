@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'aller';
+    src: url('assets/aller.bold.ttf');
+}
+
+:root {
+    font-family: aller, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: #0f0f0f;
+    background-color: #f6f6f6;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.server-button {
+    /* Make a good boxed button */
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #0f0f0f;
+    border-radius: 0.25em;
+}
