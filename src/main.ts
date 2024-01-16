@@ -48,7 +48,7 @@ if (window.location.href === 'https://tauri.localhost') {
 window.addEventListener('DOMContentLoaded', async () => {
     serverContainer = document.querySelector('#server-container');
     bgElement = document.querySelector('#bg-image');
-    bgElement!!.style.backgroundImage = 'url("/src/assets/defaultbg.jpg")';
+    bgElement!!.style.backgroundImage = 'url("/assets/defaultbg.jpg")';
 
     for (const server of SERVER_LIST) {
         const button = createButton();
@@ -65,7 +65,7 @@ window.addEventListener('DOMContentLoaded', async () => {
             'bg-1.5',
         );
 
-        button.style.backgroundImage = 'url("/src/assets/button-bg.svg")';
+        button.style.backgroundImage = 'url("/assets/button-bg.svg")';
         button.onclick = () => {
             tauri.invoke('open_server', {
                 address: server.address,

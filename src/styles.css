@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
     font-family: 'aller';
-    src: url('assets/aller.bold.ttf');
+    src: url('/assets/aller.bold.ttf');
 }
 
 :root {
