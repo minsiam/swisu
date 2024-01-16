@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "swisu",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -42,7 +42,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "swisu",
+        "title": "swisu!",
         "width": 930,
         "height": 523
       }
