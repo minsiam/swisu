@@ -5,11 +5,11 @@
 fn open_server(address: &str) {
     let osu_path = std::env::var("localappdata").unwrap();
     let osu_path = std::path::Path::new(&osu_path).join("osu!");
-    std::process::Command::new(osu_path.join("osu!.exe"))
-        .arg("-devserver")
-        .arg(address)
-        .spawn()
-        .unwrap();
+    let mut cmd = std::process::Command::new(osu_path.join("osu!.exe"));
+    if address != "ppy.sh" {
+        cmd.arg("-devserver").arg(address);
+    }
+    cmd.spawn().unwrap();
     println!("osu! started on server {}", address);
 }
 
