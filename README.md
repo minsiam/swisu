@@ -1,4 +1,6 @@
+![logo](src-tauri/icons/Square310x310Logo.png)
 # swisu!
+
 
 This is still a prototype.
 
