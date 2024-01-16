@@ -41,7 +41,7 @@ const SERVER_LIST = [
     },
 ];
 
-if (window.location.href === 'https://tauri.localhost') {
+if (window.location.href.includes('tauri.localhost')) {
     document.addEventListener('contextmenu', (e) => e.preventDefault());
 }
 
