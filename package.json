@@ -10,10 +10,17 @@
         "tauri": "tauri"
     },
     "dependencies": {
-        "@tauri-apps/api": "^1.5.2"
+        "@tauri-apps/api": "^1.5.2",
+        "clsx": "^2.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tw-merge": "0.0.1-alpha.3"
     },
     "devDependencies": {
         "@tauri-apps/cli": "^1.5.8",
+        "@types/react": "^18.2.15",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.2.1",
         "autoprefixer": "^10.4.16",
         "postcss": "^8.4.33",
         "prettier": "^3.2.2",
